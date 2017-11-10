@@ -8,12 +8,11 @@ function updateObjectWithKeyAndValue(obj, key, value)  {
 }
 
 destructivelyUpdateObjectWithKeyAndValue(obj, key, value)
-  var obj = {
-    key: value
+
   }
 
-  
+
 function destructivelyDeleteFromObjectByKey(obj, 'prop')
   var obj = {
-    key: 
+    key:
   };
