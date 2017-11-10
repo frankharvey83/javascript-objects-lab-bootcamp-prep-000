@@ -5,5 +5,3 @@ function updateObjectWithKeyAndValue(object, key, value)  {
   Object.assign({}, obect, { key: [value, newvalue] })
   return object;
 }
-
-
