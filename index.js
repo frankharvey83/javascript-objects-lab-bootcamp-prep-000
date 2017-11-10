@@ -14,4 +14,3 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 const newobj = { newkey: newvalue }
 
 destructivelyUpdateObjectWithKeyAndValue(newobj, 'flour', '3 cups')
-  
