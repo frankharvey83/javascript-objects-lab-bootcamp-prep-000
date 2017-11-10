@@ -16,7 +16,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function destructivelyDeleteFromObjectByKey(object, key, value) {
   var object = [key, value]
-  var newobj = 
+  var newobj =
   delete object.key
   return object;
 }
