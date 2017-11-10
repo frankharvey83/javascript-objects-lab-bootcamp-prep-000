@@ -6,7 +6,7 @@ function updateObjectWithKeyAndValue(object, key, value)  {
 };
 
 
-Object.assign({}, object, { key: ['value', 'newvalue'] })
+Object.assign({}, object, { key: [value, newvalue] })
 
 object
 
