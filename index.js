@@ -6,4 +6,3 @@ function updateObjectWithKeyAndValue(object, key, value)  {
 }
 
 objec;
-
