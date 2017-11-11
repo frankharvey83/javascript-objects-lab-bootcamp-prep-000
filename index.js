@@ -12,6 +12,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
     key: value
   }
   object.newkey = value;
+  return object;
 }
 
 
