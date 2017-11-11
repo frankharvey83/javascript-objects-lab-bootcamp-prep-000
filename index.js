@@ -10,9 +10,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   var object = { key: value };
   return object;
 }
-const object2 = { key2: value2}
 
-destructivelyUpdateObjectWithKeyAndValue(object2, key, value)
 
 
 function deleteFromObjectByKey(object, key, value){
