@@ -19,7 +19,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
 }
 
 function destructivelyDeleteFromObjectByKey(object, key, value) {
-  var object1 = { [key1]: value2 };
-  delete object1.key1;
-  return object1;
+  var object = { [key]: value };
+  delete object.key;
+  return object;
 }
