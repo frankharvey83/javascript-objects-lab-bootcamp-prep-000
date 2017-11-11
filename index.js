@@ -6,7 +6,6 @@ function updateObjectWithKeyAndValue(object, key, value)  {
   return object2;
 }
 
-updateObjectWithKeyAndValue(recipes, 'eggs', 3)
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   var object = { key: value };
