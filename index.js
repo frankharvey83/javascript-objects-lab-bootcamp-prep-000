@@ -23,3 +23,6 @@ function destructivelyDeleteFromObjectByKey(object, key, value) {
   delete object3.key;
   return object3;
 }
+function destructivelyDeleteFromObjectByKey(object, key){
+  delete object.key;
+  return object;
